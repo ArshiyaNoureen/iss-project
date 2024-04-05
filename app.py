@@ -10,8 +10,10 @@ from moviepy.editor import *
 from flask import redirect, session
 
 
+
 app = Flask(__name__)
-app.secret_key = "your_secret_key"
+SECRET_KEY = 'thisisthesecretkey'
+app.secret_key = SECRET_KEY
 
 # Connect to the database
 # conn = mysql.connector.connect(
