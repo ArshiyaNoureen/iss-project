@@ -23,7 +23,8 @@ app.secret_key = SECRET_KEY
 # )
 DATABASE_URL="postgresql://eshwarsriramoju:ImZ3CGIdKIK0-LGWL-srhQ@hero-dog-9058.8nk.gcp-asia-southeast1.cockroachlabs.cloud:26257/yourdatabase?sslmode=verify-full"
 
-conn = psycopg2.connect(os.environ[DATABASE_URL])
+conn = psycopg2.connect(DATABASE_URL)
+
 
 c = conn.cursor()
 
