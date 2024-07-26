@@ -18,8 +18,8 @@ app.secret_key = SECRET_KEY
 # Connect to the database
 # conn = mysql.connector.connect(
 #     host="localhost",
-#     user="eshwarsriramoju",
-#     password="Eshu@1503",
+#     user="localhost",
+#     password="Arshiya@1119",
 # )
 DATABASE_URL="postgresql://eshwarsriramoju:ImZ3CGIdKIK0-LGWL-srhQ@hero-dog-9058.8nk.gcp-asia-southeast1.cockroachlabs.cloud:26257/yourdatabase?sslmode=verify-full"
 
